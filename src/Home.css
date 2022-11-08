@@ -1,0 +1,39 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.Home-title {
+    font-size: 4rem;
+    letter-spacing: .4em;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.Home-text {
+    font-size: 1.5rem;
+    letter-spacing: .2em;
+}
+
+.Home-welcome {
+    margin-top: 3em;
+    font-size: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #B5C6B7;
+    width: 7em;
+    padding: 1em 0;
+    margin: 1em 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}

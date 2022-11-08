@@ -1,0 +1,39 @@
+.CompanyJob {
+    width: 80vw;
+    height: 10em;
+    /* border: solid 1px black; */
+    margin: 2em auto;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CompanyJob-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.CompanyJob-text {
+    line-height: .3em;
+}
+
+.CompanyJob-btn {
+    border-radius: 3px;
+    border: none;
+    padding: .7em 2.2em;
+    background-color: #FF5733;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.CompanyJob-link {
+    font-size: 1.5rem;
+    color: #063970;
+    text-decoration: none;
+}
+
+.applied {
+    background-color: lightgray;
+}

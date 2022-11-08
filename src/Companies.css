@@ -1,0 +1,14 @@
+.Companies {
+    margin-top: 5em;
+}
+
+.Companies-title {
+    font-size: 3.5em;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 60vw;
+    margin-bottom: 3em;
+}
