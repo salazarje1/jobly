@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'; 
 import JoblyApi from '../api';
 
-const userApply = (currUser, job) => {
+const useApply = (currUser, job) => {
     const [jobIds, setJobIds] = useState([]);
 
     const apply = async (e) => {
@@ -30,4 +30,4 @@ const userApply = (currUser, job) => {
     return [jobIds, apply];
 }
 
-export default userApply; 
+export default useApply; 
